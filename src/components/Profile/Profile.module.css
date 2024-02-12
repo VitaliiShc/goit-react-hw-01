@@ -1,5 +1,56 @@
-.profile_card {
-  border: 4px solid black;
+.profileCard {
+  border: 2px solid black;
   border-radius: 10px;
   padding-top: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f4f4;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  background-color: rgb(77, 77, 77);
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tag {
+  font-size: 30px;
+  color: grey;
+}
+
+.location {
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(195, 192, 192);
+  width: 100%;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  height: 150px;
+  justify-content: center;
+  outline: 2px solid grey;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.value {
+  font-weight: 700;
 }

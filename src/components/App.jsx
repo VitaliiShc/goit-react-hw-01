@@ -11,11 +11,8 @@ import transactions from '../transactions.json';
 export default function App() {
   return (
     <>
-      <h2>Завдання 1 - Профіль соціальної мережі</h2>
-      <Profile data={userData} />
-      <h2>Завдання 2 - Список друзів</h2>
+      <Profile userData={userData} />
       <FriendList friends={friends} />
-      <h2>Завдання 3 - Історія транзакцій</h2>
       <TransactionHistory transactions={transactions} />
     </>
   );

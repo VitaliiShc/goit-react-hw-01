@@ -35,6 +35,17 @@ h1 {
   line-height: 1.1;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -52,6 +63,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 @media (prefers-color-scheme: light) {

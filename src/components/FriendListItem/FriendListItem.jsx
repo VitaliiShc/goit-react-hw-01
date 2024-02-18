@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './FriendListItem.module.css';
 
-export default function FriendListItem({ friend: { avatar, name, isOnline } }) {
+export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
       <img src={avatar} alt="Avatar" height={100} />
